@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/comgeneral.css" />
+    <link rel="stylesheet" href="css/comheader.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/comfooter.css" />
+  
+    <title>Register</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="row">
+        <div class="container">
+          <div class="header-content">
+            <div class="logo">
+              <a href="community.html"
+                ><img src="img/SafeScholars.png" alt="logo"
+              /></a>
+            </div>
+          
+            <div class="nav-group">
+              <ul>
+               
+                <li>
+                  <!--<a href="#"><i class="fa-solid fa-list-ul"></i></a>-->
+                </li>
+                
+                <li class="join">
+                  <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>login</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+      <!--log in pop up-->
+      <div class="overlay">
+        <div class="login" id="login">
+          <div class="top">
+            <h2>Log in</h2>
+            <i class="fa-solid fa-xmark close"></i>
+          </div>
+          <div class="row">
+            <div class="content">
+              <div class="login-left">
+                <form action="#">
+                  <input type="text" placeholder="Username" />
+                  <div class="form-group">
+                    <input type="password" placeholder="Password" />
+                    <div><i class="fa-regular fa-eye"></i> <span>Show</span></div>
+                  </div>
+                  <a href="#">Forgot your password?</a>
+                  <div class="remember">
+                    <input type="checkbox" name="remember" value="1" checked />
+                    <label for="remember">Stay logged in</label>
+                  </div>
+                  <button type="submit" class="btn btn-red">Log in</button>
+                </form>
+              </div>
+              <div class="line"></div>
+              <div class="login-right">
+                <a href="#" class="btn"
+                  ><i class="fa-brands fa-square-facebook"></i>
+                  <span>Login with Facebook</span></a
+                >
+                <a href="#" class="btn"
+                  ><img src="img/download.png" /><span>
+                    Login with Google</span
+                  ></a
+                >
+              </div>
+            </div>
+            <div class="bottom">
+              <h4>New to SAFE Space?</h4>
+              <a href="register.html">join now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--log in pop up-->
+
+
+
+    <main>
+      <section class="register">
+        <div class="container">
+          <div class="row">
+            <form action="#">
+              <h2>Sign up</h2>
+              <div class="form-group">
+                <input type="text" name="" id="" placeholder="User name">
+              </div>
+              <div class="form-group">
+                <input type="email" name="" id="" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" name="" id="" placeholder="Password">
+              </div>
+              <span>Entering a password is required.</span>
+             
+              <div class="form-group check">
+                <input type="checkbox" name="" id="terms">
+                <label for="terms">I agree to the terms and privacy policy.</label>
+              </div>
+              <a href="#" class="btn btn-lightblue">Sign up</a>
+            </form>
+          </div>
+        </div>
+
+
+
+
+        
+    
+
+
+    <script
+      src="https://kit.fontawesome.com/9e5ba2e3f5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/community.js"></script>
+  </body>
+</html>
